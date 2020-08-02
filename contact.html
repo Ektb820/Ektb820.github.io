@@ -51,6 +51,29 @@ figcaption {
   
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
 </style>
 
 <body>
@@ -67,12 +90,20 @@ figcaption {
 
 <div>
 <p style="color:#008080; font-size:14px; padding-left:10px">Interested in connecting with me? Hit me up on 
-<a href="https://www.linkedin.com/in/emma-benn-b1044562/" target="_blank" style="color:#FF1493">Linkedin</a> or <a href="https://twitter.com/EKTBenn" target="_blank" style="color:#FF1493">Twitter</a>!</p>
+<Linkedin or Twitter!</p>
 </div>
 
-<div style="width:500px">
-<a class="twitter-timeline" href="https://twitter.com/EKTBenn?ref_src=twsrc%5Etfw" data-height="450"  data-chrome="nofooter noborders">Tweets by EKTBenn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="row">
+  <div class="column">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="emma-benn-b1044562"><a class="LI-simple-link" href='https://www.linkedin.com/in/emma-benn-b1044562?trk=profile-badge'>Emma Benn</a></div>
+  </div>
+  <div class="column">
+    <a class="twitter-timeline" href="https://twitter.com/EKTBenn?ref_src=twsrc%5Etfw" data-height="400"  data-chrome="nofooter noborders">Tweets by EKTBenn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>
+
+
 
 
 
