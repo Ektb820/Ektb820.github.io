@@ -57,7 +57,7 @@ figcaption {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 50%;
   padding: 5px;
 }
 
@@ -67,6 +67,12 @@ figcaption {
   clear: both;
   display: table;
 }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 
 </style>
 
