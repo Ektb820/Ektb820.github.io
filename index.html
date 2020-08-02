@@ -2,131 +2,66 @@
 <html>
 <head>
 <title>Emma K. T. Benn, DrPH, MPH</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
+#sectionleft {
   float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
+  width: 20%;
+  height:280px; 
+}
+#sectionright {
+  float: right;
+  width: 80%;
+  height:280px;
+  padding-right:20px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #FF00FF;
+figure {
+  padding: 0px;
+  margin: auto;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #3aae6d;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+figcaption {
+  padding-left: 10px;
+  margin: auto;
+  
 }
 
 </style>
-</head>
+
 <body>
 
-<h2 style="color:#FF00FF">Emma K. T. Benn, DrPH, MPH</h2>
+<h2 style="color:#FF1493; padding-left:10px"> Emma K. T. Benn, DrPH, MPH</h2>
+<!-- Navigation -->
 
-<div class="tab">
-  <button class="tablinks" onclick="tabs(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="tabs(event, 'Bio')">Bio</button>
-  <button class="tablinks" onclick="tabs(event, 'Works')">Works</button>
-  <button class="tablinks" onclick="tabs(event, 'Contact')">Contact</button>
+<nav class="w3-bar w3-teal">
+  <a href="index.html" class="w3-bar-item w3-button w3-hover-pink ">Home</a>
+  <a href="bio.html" class="w3-bar-item w3-button w3-hover-pink">Bio</a>
+  <a href="https://plu.mx/mtsinai/u/ebenn" class="w3-bar-item w3-button w3-hover-pink" target="_blank">Publications</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-hover-pink">Contact</a>
+</nav>
+
+<div id = "boxes"> 
+<div id="sectionleft">
+<figure>
+<img class="sectionleft" src="https://mathematicallygiftedandblack.com/wp-content/uploads/2020/02/Feb18_EmmaBenn.jpg" style="width:90%">
+<figcaption><small style="color:#008080"><em>Photo by <a href="https://www.instagram.com/everydaywidevision/?hl=en" target="_blank" style="color:#FF1493">Marcia Wilson</a></em></small></figcaption>
+</figure>
 </div>
 
-<div id="Home" class="tabcontent">
-    <p style="color:#FF00FF">Thanks for making your way to my website. Briefly, I am a biostatistician who just thought it might be worthwhile creating 
+<div id="sectionright">
+<p class="sectionright" style="color:#008080; font-size:14px">Thanks for making your way to my website. Briefly, I am a biostatistician who just thought it might be worthwhile creating 
 a little website to give you a sense of who I am. I had never met any Black biostatisticians when I started pursuing my doctoral studies in biostatistics. I also didn't meet a Black, female, lesbian biostatistician, like myself, until after I graduated. 
 So to all the other Black or female or LGBTQ+ students and professionals in STEM fields, if you are wondering where are the others like you, here I am. And I am one of many many more who are doing everything 
 we can to increase the sense of belonging, scientific identity, and success of underrepresented groups in STEM. I want you to know that you will make amazing contributions to science and it is your diversity and brilliance that is going to change the world.
-Much respect!
-  </p>
+Much respect!</p>
 </div>
-
-<div id="Bio" class="tabcontent">
-<p style="float: left;"><img src="https://www.mountsinai.org/files/fad_img_new/93/0000076810077388273931/0000072500016892002501.jpg" style="padding-right: 20px"></p>
-<p style="color:#FF00FF">I was born on the "Main Line", which includes quite a few towns in the western suburbs of Philadelphia, PA. I graduated from Swarthmore College
-with a BA in Chemistry and a minor in Spanish. I subsequently worked in the pharmaceutical industry as a Quality Control Chemist. Yet, I wanted to gain a stronger understanding of public health, so I pursued my
-MPH in Sociomedical Sciences from Columbia University's Mailman School of Public Health. During my MPH program I got a lot of exposure to biostatistics. This field really interested me, so I stayed at Columbia
-to pursue my DrPH in Biostatistics. Upon graduating from my DrPH program in 2012, I joined the faculty as an Assistant Professor 
-at the Icahn School of Medicine at Mount Sinai. Currently, I am an Associate Professor in the Center for Biostatistics and Department of Population Health Science and Policy 
-at the Icahn School of Medicine at Mount Sinai (ISMMS). I am also the Founding Director of the <a href="https://labs.icahn.mssm.edu/bennlab/" 
-style="color:#3aae6d;" target="_blank">Center for 
-Scientific Diversity</a> and Director of Data Science Training and Enrichment in the 
-Graduate School of Biomedical Sciences.  In the past, I served as the co-Director of the Master of Science in Biostatistics Program and Director of Academic Programs for the Center for 
-Biostatistics at ISMMS. I have collaborated on a variety of health disparities-related research projects as well as other types of clinical and translational research projects
- over the course of my career. Feel free to check out some of my <a href="https://plu.mx/mtsinai/u/ebenn?selectedFilterIds=artifactType.countType%3AARTICLE" 
-target="_blank" style="color:#3aae6d;">publications</a>. 
-I have had the pleasure of developing and teaching quite a few courses throughout my career. One course that I am very proud of developing is a graduate-level course, Race and Causal Inference, aimed at increasing 
-the methodologic rigor by which we investigate health 
-disparities with a goal of finding effective causal targets for intervention. 
-I am committed to increasing diversity, inclusion, 
-and equitable advancement in (bio)statistics and STEM fields, more broadly, as well as reducing racial/ethnic disparities in faculty promotion 
-in academic medicine. I am the co-founder of the NHLBI-funded Biostatistics Epidemiology Summer Training (BEST) Diversity Program and a 
-former co-Chair of the ENAR Fostering Diversity in Biostatistics Workshop. I also serve as a mentor for the JSM Diversity Workshop 
-and Mentoring Program and the Math Alliance. I was co-PI of the NIGMS-funded Applied Statistics in Biological Systems (ASIBS) Short Course
- aimed at increasing the statistical competency and research capacity of early stage researchers nationwide. If you want to get an introduction to 
-biostatistics, you can check out our ASIBS <a href="http://www.asibs-statistics.com/online-lectures" target="_blank" style="color:#3aae6d;">lectures</a>. I am currently co-PI of the <a href="https://www.creigs.org/" target="_blank" style="color:#3aae6d;">NHGRI-funded Clinical Research 
-Education in Genome Science (CREiGS) Short Course</a> aimed at exposing doctoral students, 
-postdocs, and clinical and research faculty to computational tools in genome science in addition to effective strategies for engaging 
-underserved communities in genomics research. My contributions to diversity and inclusion in statistics and STEM have been celebrated by 
-various organizations including <a href="https://mathematicallygiftedandblack.com/honorees/emma-benn/" target="_blank" style="color:#3aae6d;">Mathematically Gifted and Black</a> and the <a href="https://magazine.amstat.org/blog/2018/03/01/emma-benn/" target="_blank" style="color:#3aae6d;">American Statistical Association</a>.</p>
-</div>
-
-<div id="Works" class="tabcontent">
-  <p style="color:#FF00FF">When I failed my qualifying exams the first time I took them in my doctoral program, I really thought that was the end of my career as a biostatistician.
-Thankfully, I passed them the second time around. So to anyone who thinks that failing is defeat, well, I hope I serve as an example that you will eventually dust yourself off and 
-get back up and accomplish some amazing things along the way. Anyway, you can find most of my accomplishments to date listed in my <a href="https://github.com/Ektb820/CV/blob/master/EBenn_MSSM_CV_072820_website.pdf" target="_blank" style="color:#3aae6d;">CV</a>. I'll do my
-best to keep it regularly updated. </p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <p style="color:#FF00FF">Interested in connecting with me? You can totally hit me up on <a href="https://www.linkedin.com/in/emma-benn-b1044562/" target="_blank" style="color:#3aae6d;">LinkedIn</a> and <a href="https://twitter.com/EKTBenn" target="_blank" style="color:#3aae6d;">Twitter</a>!</p>
-<a class="twitter-timeline" href="https://twitter.com/EKTBenn?ref_src=twsrc%5Etfw"
-data-width="500"
-  data-height="350"
->Tweets by EKTBenn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 
 
-<script>
-function tabs(evt, tabs) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabs).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
+
 </body>
-</html> 
+</html>
